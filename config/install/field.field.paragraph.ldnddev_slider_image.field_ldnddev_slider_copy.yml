@@ -1,0 +1,21 @@
+uuid: 53a6d545-572b-4747-9d19-c91e6c9653b0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_ldnddev_slider_copy
+    - paragraphs.paragraphs_type.ldnddev_slider_image
+  module:
+    - text
+id: paragraph.ldnddev_slider_image.field_ldnddev_slider_copy
+field_name: field_ldnddev_slider_copy
+entity_type: paragraph
+bundle: ldnddev_slider_image
+label: 'ldnddev Slider Copy'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

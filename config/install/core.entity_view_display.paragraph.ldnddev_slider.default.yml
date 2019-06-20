@@ -1,0 +1,35 @@
+uuid: 891ec41a-96b8-471a-a446-6f43b64bb8a4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.ldnddev_slider.field_ldnddev_slider_css
+    - field.field.paragraph.ldnddev_slider.field_ldnddev_slider_item
+    - paragraphs.paragraphs_type.ldnddev_slider
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: m-PfERV58GN9VRIOLPiO1XwqeZVUZnxcibfdSOlTEYI
+id: paragraph.ldnddev_slider.default
+targetEntityType: paragraph
+bundle: ldnddev_slider
+mode: default
+content:
+  field_ldnddev_slider_css:
+    weight: 2
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_ldnddev_slider_item:
+    type: entity_reference_revisions_entity_view
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+hidden: {  }

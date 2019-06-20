@@ -1,0 +1,13 @@
+ldnddev_slider:
+  css:
+    component:
+      assets/css/ldnddev_slider.css:
+        minified: false
+  js:
+    assets/js/ldnddev_slider.js:
+      minified: false
+    assets/js/responsiveslides.min.js:
+      minified: true
+  dependencies:
+    - core/jquery
+    - core/drupal

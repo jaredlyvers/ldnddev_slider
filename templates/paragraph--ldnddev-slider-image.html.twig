@@ -1,0 +1,15 @@
+{% if content.field_ldnddev_slider_image.0 %}
+    {% set img_url = file_url(content.field_ldnddev_slider_image['#items'].entity.uri.value) %}
+{% endif %}
+<li class="ldnddev-slider__item" style="background-image: url({{ img_url }});">
+    {% if content.field_ldnddev_slider_image.0 %}
+        <div class="ldnddev-slider__image">
+            {{ content.field_ldnddev_slider_image }}
+        </div>
+    {% endif %}
+    {% if content.field_ldnddev_slider_copy.0 %}
+        <div class="ldnddev-slider__copy">
+            {{ content.field_ldnddev_slider_copy }}
+        </div>
+    {% endif %}
+</li>

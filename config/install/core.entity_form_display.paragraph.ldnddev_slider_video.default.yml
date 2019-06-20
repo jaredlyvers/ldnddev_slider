@@ -1,0 +1,35 @@
+uuid: fafda176-01df-4a5c-87ca-b14b030f4f1c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.ldnddev_slider_video.field_ldnddev_slider_copy
+    - field.field.paragraph.ldnddev_slider_video.field_ldnddev_slider_video
+    - paragraphs.paragraphs_type.ldnddev_slider_video
+  module:
+    - media_library
+    - text
+_core:
+  default_config_hash: 5ynrkBLU0TXmfk3inMPY0Zzq1OmbJm1ZnvngYj3mipE
+id: paragraph.ldnddev_slider_video.default
+targetEntityType: paragraph
+bundle: ldnddev_slider_video
+mode: default
+content:
+  field_ldnddev_slider_copy:
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_ldnddev_slider_video:
+    type: media_library_widget
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  status: true

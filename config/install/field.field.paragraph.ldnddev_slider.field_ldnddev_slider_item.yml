@@ -1,0 +1,50 @@
+uuid: d625d633-bfa5-499c-b4f4-92ff66d2079d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_ldnddev_slider_item
+    - paragraphs.paragraphs_type.ldnddev_slider
+    - paragraphs.paragraphs_type.ldnddev_slider_image
+    - paragraphs.paragraphs_type.ldnddev_slider_video
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: KtjEkomS1KvmTq6DO1NtGLCbz9iqGnu_IptUOqBhzJo
+id: paragraph.ldnddev_slider.field_ldnddev_slider_item
+field_name: field_ldnddev_slider_item
+entity_type: paragraph
+bundle: ldnddev_slider
+label: 'ldnddev Slider Item'
+description: 'Select the type of item you would like for your <em>Slider</em>. ie. an image or a video.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      ldnddev_slider_image: ldnddev_slider_image
+      ldnddev_slider_video: ldnddev_slider_video
+    target_bundles_drag_drop:
+      ldnddev_hero:
+        weight: 7
+        enabled: false
+      ldnddev_hero_image:
+        weight: 8
+        enabled: false
+      ldnddev_hero_video:
+        weight: 9
+        enabled: false
+      ldnddev_slider:
+        weight: 10
+        enabled: false
+      ldnddev_slider_image:
+        enabled: true
+        weight: 11
+      ldnddev_slider_video:
+        enabled: true
+        weight: 12
+field_type: entity_reference_revisions

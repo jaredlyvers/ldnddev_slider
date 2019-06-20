@@ -1,0 +1,32 @@
+uuid: 61c93a1d-eec6-4461-a9db-e6a9e4536150
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - image
+    - paragraphs
+_core:
+  default_config_hash: pVyOhmEIhkeuHvrTQAcFjke5SurXLy-RCsk4k3dQXWc
+id: paragraph.field_ldnddev_slider_image
+field_name: field_ldnddev_slider_image
+entity_type: paragraph
+type: image
+settings:
+  uri_scheme: public
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  target_type: file
+  display_field: false
+  display_default: false
+module: image
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

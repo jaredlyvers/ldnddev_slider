@@ -1,0 +1,11 @@
+uuid: 31182f57-3c70-419d-9032-f6543a79511c
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: AxkS_UWHpUnhc9qAfQxYOf-DPrwirxNcc65fJeonK_Y
+id: ldnddev_slider
+label: 'ldnddev Slider'
+icon_uuid: null
+description: 'This bundle is used to add a slider with images or videos.'
+behavior_plugins: {  }

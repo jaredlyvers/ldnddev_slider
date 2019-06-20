@@ -1,0 +1,47 @@
+uuid: 009f4bdb-871a-40f0-aad6-133e87ac4730
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.ldnddev_slider.field_ldnddev_slider_css
+    - field.field.paragraph.ldnddev_slider.field_ldnddev_slider_item
+    - paragraphs.paragraphs_type.ldnddev_slider
+  module:
+    - paragraphs
+_core:
+  default_config_hash: lgCvsgSVdyN6Rfp4yvF3CHvVXs-6-Y0U4J2XdkuJVec
+id: paragraph.ldnddev_slider.default
+targetEntityType: paragraph
+bundle: ldnddev_slider
+mode: default
+content:
+  field_ldnddev_slider_css:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_ldnddev_slider_item:
+    type: paragraphs
+    weight: 0
+    settings:
+      title: Item
+      title_plural: Items
+      edit_mode: closed
+      closed_mode: summary
+      autocollapse: none
+      closed_mode_threshold: 0
+      add_mode: button
+      form_display_mode: default
+      default_paragraph_type: _none
+      features:
+        duplicate: duplicate
+        collapse_edit_all: collapse_edit_all
+        add_above: '0'
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  status: true

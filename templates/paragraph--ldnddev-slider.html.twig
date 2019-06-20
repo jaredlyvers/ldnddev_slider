@@ -1,0 +1,16 @@
+{{ attach_library('ldnddev_slider/ldnddev_slider') }}
+{% 
+    set classes=[
+        'ldnddev-slider'
+    ]
+%}
+
+{% if content.field_ldnddev_slider_css.0 %}
+    {% set classes = classes|merge([content.field_ldnddev_slider_css.0|render|clean_class]) %}
+{% endif %}
+
+<div {{ attributes.addClass(classes) }}>
+    <ul class="ldnddev-slider__items">
+        {{ content.field_ldnddev_slider_item }}
+    </ul>
+</div>

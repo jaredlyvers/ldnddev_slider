@@ -1,0 +1,23 @@
+uuid: 518a6f83-5550-4ad7-bacf-3f5e5c10ba45
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: 9ErzWfqg-zPcNoN9qnndhDMcS0mhp432n6x5sj8ur3I
+id: paragraph.field_ldnddev_slider_css
+field_name: field_ldnddev_slider_css
+entity_type: paragraph
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
