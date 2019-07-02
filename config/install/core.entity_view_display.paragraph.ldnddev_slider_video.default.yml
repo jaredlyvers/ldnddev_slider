@@ -9,7 +9,7 @@ dependencies:
   module:
     - text
 _core:
-  default_config_hash: 0Jf-tL2GV_XUzgEapxoJm--9d1h2q7smzIf42bOm-I8
+  default_config_hash: KN_lQA0_BwVS99pzjwHW-ve70ahffI_LUbk5xbRZ69c
 id: paragraph.ldnddev_slider_video.default
 targetEntityType: paragraph
 bundle: ldnddev_slider_video

@@ -6,7 +6,7 @@ dependencies:
     - entity_reference_revisions
     - paragraphs
 _core:
-  default_config_hash: NSLCKE5NG5DMiNt1PijSoXXrotzsCaKlH8gRKWZHL9c
+  default_config_hash: fRw_CjTp37iHjPxWEL73brV0cmPVzg4lpZ196mwc0Nk
 id: paragraph.field_ldnddev_slider_item
 field_name: field_ldnddev_slider_item
 entity_type: paragraph

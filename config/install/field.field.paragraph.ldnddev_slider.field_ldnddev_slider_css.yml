@@ -6,13 +6,13 @@ dependencies:
     - field.storage.paragraph.field_ldnddev_slider_css
     - paragraphs.paragraphs_type.ldnddev_slider
 _core:
-  default_config_hash: 42AzWeK99ZZ4P9FFT-yOOFdRJ23Pg3hEw_8W-gcs6yg
+  default_config_hash: mtwgle2hJzn2uPtYU52bWcLzBBRwFUClyTOxW6qXpCg
 id: paragraph.ldnddev_slider.field_ldnddev_slider_css
 field_name: field_ldnddev_slider_css
 entity_type: paragraph
 bundle: ldnddev_slider
-label: 'ldnddev Slider CSS'
-description: ''
+label: 'Custom CSS Class'
+description: 'Add your own custom CSS class.'
 required: false
 translatable: false
 default_value: {  }

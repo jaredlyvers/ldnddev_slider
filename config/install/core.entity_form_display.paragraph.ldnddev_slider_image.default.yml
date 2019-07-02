@@ -11,7 +11,7 @@ dependencies:
     - image
     - text
 _core:
-  default_config_hash: I-1XY_C88RYLO4f5hlZlf46OLLxDQCJlBmuaDmWp5k0
+  default_config_hash: qCHf6xbsmSQHtVJqqQdCEO4wxwQAG6PepTDP9qM9eWw
 id: paragraph.ldnddev_slider_image.default
 targetEntityType: paragraph
 bundle: ldnddev_slider_image

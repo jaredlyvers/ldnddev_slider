@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: 1F2okf4q4joRnC9vUHd5Xx3ckQVVj-gS2ENAarNZhi0
+  default_config_hash: CRh4LBLhCo70VFQPf5W3r21y77-ICnKAGioIWyL9kMQ
 id: ldnddev_slider_video
 label: 'ldnddev Slider Video'
 icon_uuid: null

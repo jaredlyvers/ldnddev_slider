@@ -5,6 +5,8 @@ dependencies:
   module:
     - paragraphs
     - text
+_core:
+  default_config_hash: 66KGeOtBwiDzhk7tEB6n47VVpqcjyEzt_PX4BtOGWek
 id: paragraph.field_ldnddev_slider_copy
 field_name: field_ldnddev_slider_copy
 entity_type: paragraph

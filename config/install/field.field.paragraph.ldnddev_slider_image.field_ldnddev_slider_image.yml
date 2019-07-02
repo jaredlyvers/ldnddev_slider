@@ -8,12 +8,12 @@ dependencies:
   module:
     - image
 _core:
-  default_config_hash: 39VOBOUeBFlMvMhOnmsWcz2KZQTEnlOiNLCWH772G2c
+  default_config_hash: uhvFIxtcRjUT3rZKGUhbhSd7XDgHn8PhGnklR6pEh1A
 id: paragraph.ldnddev_slider_image.field_ldnddev_slider_image
 field_name: field_ldnddev_slider_image
 entity_type: paragraph
 bundle: ldnddev_slider_image
-label: 'ldnddev Slider Image'
+label: 'Slider Image'
 description: ''
 required: false
 translatable: false

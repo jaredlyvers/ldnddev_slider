@@ -9,7 +9,7 @@ dependencies:
   module:
     - paragraphs
 _core:
-  default_config_hash: lgCvsgSVdyN6Rfp4yvF3CHvVXs-6-Y0U4J2XdkuJVec
+  default_config_hash: XQjD_XlGqEYzVs56WisaeoyO1Ft4rsyYNJhW-MfkvQw
 id: paragraph.ldnddev_slider.default
 targetEntityType: paragraph
 bundle: ldnddev_slider
@@ -27,8 +27,8 @@ content:
     type: paragraphs
     weight: 0
     settings:
-      title: Item
-      title_plural: Items
+      title: 'Slider Item'
+      title_plural: 'Slider Items'
       edit_mode: closed
       closed_mode: summary
       autocollapse: none

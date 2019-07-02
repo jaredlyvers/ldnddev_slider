@@ -5,7 +5,7 @@ dependencies:
   module:
     - paragraphs
 _core:
-  default_config_hash: 9ErzWfqg-zPcNoN9qnndhDMcS0mhp432n6x5sj8ur3I
+  default_config_hash: TSX8ggX4-x22LqBMVNvPuKK7vFdS2hoI2P64eepk-4s
 id: paragraph.field_ldnddev_slider_css
 field_name: field_ldnddev_slider_css
 entity_type: paragraph

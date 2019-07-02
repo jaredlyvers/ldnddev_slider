@@ -7,11 +7,13 @@ dependencies:
     - paragraphs.paragraphs_type.ldnddev_slider_video
   module:
     - text
+_core:
+  default_config_hash: 19j6fMtWJP5FzrpVkiMSe4462cWYSbF9FZGPao-0AJ4
 id: paragraph.ldnddev_slider_video.field_ldnddev_slider_copy
 field_name: field_ldnddev_slider_copy
 entity_type: paragraph
 bundle: ldnddev_slider_video
-label: 'ldnddev Slider Copy'
+label: 'Slider Copy'
 description: ''
 required: false
 translatable: true

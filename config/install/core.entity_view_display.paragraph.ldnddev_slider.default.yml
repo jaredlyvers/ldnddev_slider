@@ -9,7 +9,7 @@ dependencies:
   module:
     - entity_reference_revisions
 _core:
-  default_config_hash: m-PfERV58GN9VRIOLPiO1XwqeZVUZnxcibfdSOlTEYI
+  default_config_hash: FVP3FOcag2Vh87jk2_MkqHgVQYJy58oBQh-1TGADQ70
 id: paragraph.ldnddev_slider.default
 targetEntityType: paragraph
 bundle: ldnddev_slider

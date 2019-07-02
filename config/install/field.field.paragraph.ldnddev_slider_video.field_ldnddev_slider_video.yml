@@ -7,12 +7,12 @@ dependencies:
     - media.type.remote_video
     - paragraphs.paragraphs_type.ldnddev_slider_video
 _core:
-  default_config_hash: Xb-SNbjr2XLyt3CaBeFcE4_W88lfdV0VKeTRHVPrn0Q
+  default_config_hash: J3-Lc7A_ptk5EbaMCQDEEm8p87blfahUt17l7S6oHRQ
 id: paragraph.ldnddev_slider_video.field_ldnddev_slider_video
 field_name: field_ldnddev_slider_video
 entity_type: paragraph
 bundle: ldnddev_slider_video
-label: 'ldnddev Slider Video'
+label: 'Slider Video'
 description: ''
 required: false
 translatable: false

@@ -10,7 +10,7 @@ dependencies:
     - media_library
     - text
 _core:
-  default_config_hash: 5ynrkBLU0TXmfk3inMPY0Zzq1OmbJm1ZnvngYj3mipE
+  default_config_hash: pGtvfKb0IPx-g-qyc9iJu2obKvIlINIF0Ie4yjPbmH4
 id: paragraph.ldnddev_slider_video.default
 targetEntityType: paragraph
 bundle: ldnddev_slider_video

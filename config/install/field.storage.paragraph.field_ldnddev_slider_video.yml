@@ -6,7 +6,7 @@ dependencies:
     - media
     - paragraphs
 _core:
-  default_config_hash: c3IpdLolpZOLfhHp-57QnVHonxu9BZuJxay0dcgncJk
+  default_config_hash: 4ZBOjcqihhkMpUnFr_OJtFm8QSXrut90ARb9fcfpeLA
 id: paragraph.field_ldnddev_slider_video
 field_name: field_ldnddev_slider_video
 entity_type: paragraph

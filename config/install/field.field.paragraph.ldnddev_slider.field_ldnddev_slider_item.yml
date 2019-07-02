@@ -10,12 +10,12 @@ dependencies:
   module:
     - entity_reference_revisions
 _core:
-  default_config_hash: KtjEkomS1KvmTq6DO1NtGLCbz9iqGnu_IptUOqBhzJo
+  default_config_hash: 2_YFN7bXhUOeE_P6gjBudL0635ZRzxasT7hu9g7dzgA
 id: paragraph.ldnddev_slider.field_ldnddev_slider_item
 field_name: field_ldnddev_slider_item
 entity_type: paragraph
 bundle: ldnddev_slider
-label: 'ldnddev Slider Item'
+label: 'Slider Item'
 description: 'Select the type of item you would like for your <em>Slider</em>. ie. an image or a video.'
 required: false
 translatable: false
@@ -47,4 +47,46 @@ settings:
       ldnddev_slider_video:
         enabled: true
         weight: 12
+      ldnddev_accordion:
+        weight: 21
+        enabled: false
+      ldnddev_accordion_item:
+        weight: 22
+        enabled: false
+      ldnddev_add_a_file:
+        weight: 23
+        enabled: false
+      ldnddev_add_a_link:
+        weight: 24
+        enabled: false
+      ldnddev_card:
+        weight: 25
+        enabled: false
+      ldnddev_card_item:
+        weight: 26
+        enabled: false
+      ldnddev_file_or_link:
+        weight: 27
+        enabled: false
+      ldnddev_gallery:
+        weight: 28
+        enabled: false
+      ldnddev_gallery_image:
+        weight: 29
+        enabled: false
+      ldnddev_gallery_video:
+        weight: 30
+        enabled: false
+      ldnddev_milestone:
+        weight: 34
+        enabled: false
+      ldnddev_milestone_item:
+        weight: 35
+        enabled: false
+      ldnddev_rich_text:
+        weight: 36
+        enabled: false
+      ldnddev_section:
+        weight: 37
+        enabled: false
 field_type: entity_reference_revisions

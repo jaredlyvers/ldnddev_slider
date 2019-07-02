@@ -7,11 +7,13 @@ dependencies:
     - paragraphs.paragraphs_type.ldnddev_slider_image
   module:
     - text
+_core:
+  default_config_hash: irFQF1ENdOvqnEvFLrw4bEl2nbmYfTJw_URBVjyQPnk
 id: paragraph.ldnddev_slider_image.field_ldnddev_slider_copy
 field_name: field_ldnddev_slider_copy
 entity_type: paragraph
 bundle: ldnddev_slider_image
-label: 'ldnddev Slider Copy'
+label: 'Slider Copy'
 description: ''
 required: false
 translatable: false

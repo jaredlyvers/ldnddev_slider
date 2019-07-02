@@ -7,7 +7,7 @@ dependencies:
     - image
     - paragraphs
 _core:
-  default_config_hash: pVyOhmEIhkeuHvrTQAcFjke5SurXLy-RCsk4k3dQXWc
+  default_config_hash: '-2CrM5A4uifstLTZ7BWawuc7-zuqb3fWNI1zP4EOkBw'
 id: paragraph.field_ldnddev_slider_image
 field_name: field_ldnddev_slider_image
 entity_type: paragraph
